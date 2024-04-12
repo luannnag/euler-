@@ -1,3 +1,4 @@
+#Hay un error en el código, marcado en el lugar donde corresponde. Corregir 
 import math
 
 # se define la función que representa la EDO del ejercicio 1
@@ -10,7 +11,7 @@ def f_2(t, I):
 
 # se define la solucion exacta de la EDO del ejercicio 1
 def solucion_exacta_1(x):
-    return math.exp(0.1 * x**2 - 0.5)
+    return math.exp(0.1 * x**2 - 0.5) #chequear esta solución
 
 # ahora con el ejercicio 2 
 def solucion_exacta_2(t):
